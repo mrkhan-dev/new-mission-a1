@@ -84,3 +84,16 @@ main {
   font-style: normal;
   font-weight: 500;
 }
+
+.discount-max-caption {
+  color: #070211;
+  margin-top: 16px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.discount-image {
+  margin-top: 48px;
+}
