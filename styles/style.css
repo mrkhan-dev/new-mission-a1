@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+header,
+main {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* banner section */
+
+.banner-section {
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/Banner\ Image.png);
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: cover;
+  height: 82.5vh;
+}
+
+.banner-title {
+  color: #fff;
+  padding-top: 177px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.banner-caption {
+  color: #fff;
+  text-align: center;
+  width: 632px;
+  margin-top: 16px;
+  margin: 0 auto;
+  padding-bottom: 177px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+/* discount section */
+
+.section-1 {
+  text-align: center;
+}
+
+.discount-section {
+  margin-top: 120px;
+  text-align: center;
+}
+.discount-heading {
+  /* display: flex; */
+  display: inline-flex;
+  gap: 20px;
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.discount {
+  text-align: center;
+}
+
+.discount-min-caption {
+  margin-top: 48px;
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
