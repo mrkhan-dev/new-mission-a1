@@ -12,6 +12,7 @@ header,
 main {
   width: 85%;
   margin: 0 auto;
+  border-right: 1px solid #f00;
 }
 
 /* banner section */
@@ -198,6 +199,7 @@ main {
   margin-top: 120px;
   justify-content: space-between;
   border-top: 1px solid #f00;
+  border-bottom: 1px solid #0d6efd;
 }
 
 .offer-min-header {
@@ -257,4 +259,52 @@ main {
   font-weight: 400;
   line-height: 32px;
   width: 276px;
+}
+
+/* gift section */
+.section-5 {
+  margin-top: 120px;
+  border-radius: 16px;
+  border-top: 1px solid #070211;
+}
+
+.gift-min-heading {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.gift-max-heading {
+  margin-top: 16px;
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.gift-caption {
+  margin-top: 22px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gift-image-group {
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gift-image img {
+  width: 497px;
+  height: 450px;
+  flex-shrink: 0;
 }
