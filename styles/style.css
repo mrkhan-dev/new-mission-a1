@@ -304,7 +304,76 @@ main {
 }
 
 .gift-image img {
-  width: 497px;
+  width: 496.5px;
   height: 450px;
-  flex-shrink: 0;
+}
+
+/* newsletter section */
+.section-7 {
+  margin-top: 120px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+}
+
+.message-icon img {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.newsletter-heading {
+  margin-top: 40px;
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.newsletter-caption {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding: 0 212px;
+  margin-top: 22px;
+}
+
+.input-felid-btn {
+  display: inline-flex;
+  padding-top: 48px;
+  margin-bottom: 80px;
+}
+
+input {
+  position: relative;
+  display: inline-block;
+}
+
+input[type="email"] {
+  width: 438px;
+  height: 72px;
+  border-radius: 50px 0 0 50px;
+  background: #fff;
+  border: 0;
+  padding: 25px;
+  font-size: 18px;
+  font-family: Inter;
+}
+
+input[type="submit"] {
+  position: relative;
+  border-radius: 0 50px 50px 0;
+  width: 210px;
+  height: 72px;
+  background: #f00;
+  border: 0;
+  left: -5px;
+  cursor: pointer;
+  color: #fff;
+  padding: 24px 56px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
