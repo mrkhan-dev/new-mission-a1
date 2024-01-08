@@ -12,7 +12,6 @@ header,
 main {
   width: 85%;
   margin: 0 auto;
-  border-right: 1px solid #f00;
 }
 
 /* banner section */
@@ -26,7 +25,7 @@ main {
   background-size: cover;
   justify-content: center;
   align-items: cover;
-  height: 82.5vh;
+  height: 80vh;
 }
 
 .banner-title {
@@ -69,7 +68,6 @@ main {
   font-size: 88px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .discount {
@@ -100,14 +98,15 @@ main {
 }
 
 .party-main {
-  display: inline-flex;
+  position: relative;
+  display: flex;
 }
 .party-section {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/Vectorrr.png");
   background-repeat: no-repeat, no-repeat;
   background-size: cover;
-  height: 78vh;
+  height: 80vh;
   border-radius: 16px;
   margin-top: 120px;
 }
@@ -147,9 +146,9 @@ main {
 }
 
 .party-image {
-  position: relative;
-  left: 510px;
-  top: -190px;
+  position: absolute;
+  left: 515px;
+  top: 105px;
 }
 
 /* location section */
@@ -203,7 +202,7 @@ main {
 }
 
 .offer-min-header {
-  margin-top: 224px;
+  margin-top: 104px;
   color: #f00;
   text-transform: uppercase;
   font-family: Inter;
@@ -234,6 +233,10 @@ main {
   height: 364.844px;
 }
 
+/* .new-year {
+  margin-top: -20px;      
+} */
+
 .circle {
   width: 463px;
   height: 463px;
@@ -245,7 +248,7 @@ main {
 }
 
 .new-year-title {
-  margin-top: 232px;
+  margin-top: 112px;
   color: #f00;
   font-family: Inter;
   font-size: 48px;
@@ -253,12 +256,17 @@ main {
 }
 
 .new-year-caption {
+  margin-top: 16px;
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
   width: 276px;
+}
+
+.new-year > img {
+  margin-top: 39px;
 }
 
 /* gift section */
@@ -304,7 +312,7 @@ main {
 }
 
 .gift-image img {
-  width: 496.5px;
+  width: 496px;
   height: 450px;
 }
 
@@ -360,6 +368,7 @@ input[type="email"] {
   padding: 25px;
   font-size: 18px;
   font-family: Inter;
+  outline: none;
 }
 
 input[type="submit"] {
@@ -376,4 +385,95 @@ input[type="submit"] {
   font-size: 18px;
   font-weight: 600;
   text-transform: capitalize;
+}
+
+/* footer section */
+footer {
+  background: #070211;
+  margin-top: 120px;
+}
+
+.footer {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.footer-main-part-1 {
+  width: 85%;
+  padding: 120px 0px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.location-info {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 40px;
+  width: 370px;
+  margin-left: 20px;
+}
+
+.contact-info {
+}
+
+.icon span {
+  font-family: Inter;
+
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.icon-2 {
+  margin-top: 10px;
+}
+
+/* logo section */
+.logo {
+  display: flex;
+  margin-top: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 1px solid #fff;
+}
+
+hr {
+  height: 1px;
+  /* width: 85%; */
+  margin: 0 auto;
+  border-color: rgba(255, 255, 255, 0.15);
+  margin-top: -50px;
+}
+
+.last-once {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  /* width: 85%; */
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 120px;
+}
+
+.hr2 {
+  margin-top: 48px;
+}
+
+.unsubscribe button {
+  background: 0;
+  border: 0;
+  color: #fff;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.unsubscribe button:hover {
+  color: #f00;
+  cursor: pointer;
 }
