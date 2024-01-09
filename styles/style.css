@@ -153,7 +153,6 @@ main {
 
 /* location section */
 .location {
-  border-bottom: 1px solid #070211;
   margin-top: 120px;
   border-radius: 16px;
   text-align: center;
@@ -197,8 +196,6 @@ main {
   display: flex;
   margin-top: 120px;
   justify-content: space-between;
-  border-top: 1px solid #f00;
-  border-bottom: 1px solid #0d6efd;
 }
 
 .offer-min-header {
@@ -269,6 +266,78 @@ main {
   margin-top: 39px;
 }
 
+/* bonus section */
+.section-6 {
+  margin-top: 120px;
+}
+.bonus-section {
+  text-align: center;
+}
+
+.black {
+  color: #070211;
+}
+
+.bonus-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 28px;
+  padding: 0 350px;
+}
+
+.bonus-caption {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.bonus-heading {
+  color: #f00;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.image-box {
+  padding-top: 64px;
+  margin-top: 100px;
+  display: flex;
+  position: relative;
+}
+
+.gift-image {
+  position: absolute;
+  top: -60px;
+}
+
+.discount-image-2 {
+  position: relative;
+  top: -50px;
+  left: 60rem;
+  z-index: 1;
+}
+
+.customer-image {
+  position: absolute;
+  right: 0;
+  margin-top: -147px;
+  padding-top: 25.5px;
+}
+
+.image-red {
+  background: url("../images/Rectangle 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+}
+
 /* gift section */
 .section-5 {
   margin-top: 120px;
@@ -311,7 +380,7 @@ main {
   gap: 24px;
 }
 
-.gift-image img {
+.brand-image img {
   width: 496px;
   height: 450px;
 }
